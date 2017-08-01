@@ -46,7 +46,7 @@ Type into the command line:
 >> predictFromFile
 ```
 
-Open a drawing app like Microsoft Paint and draw a lowercase letter. Save it as a .png or .jpg file such as ‘letter.png.’ An example file called 'l.png' is included in the src directory.
+Open a drawing app like Microsoft Paint and draw a single lowercase letter. Save it as a .png or .jpg file such as ‘letter.png.’ An example file called 'l.png' is included in the src directory.
 
 Follow the prompt:
 ```
