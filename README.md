@@ -1,5 +1,5 @@
 
-# character-recognition
+# Character Recognition
 
 ## Introduction
 
