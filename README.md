@@ -99,7 +99,7 @@ In more mathematical terms, the letter ‘a’ has different x and y and z varia
 
 Now, for a computer to learn the difference between the four letters, it must create some mathematical functions that form boundaries around each letter’s grouping. That way, if we introduce a new glyph with similar characteristics or variable values to the letter ‘a’, it would hopefully fall inside the ‘a’ boundary, ensuring an accurate prediction of the letter ‘a’ and not some other letter. 
 
-To start creating this boundary wall around ‘a’, we could first start off with a 3D plane (ax + by + cz + d= 0) initialized in a random position. However, the distance between the a’s and the random plane could potentially be quite large. We then need to modify the coefficients or weights of the plane equation to reorient the plane and minimize its the distance between the a’s. 
+To start creating this boundary wall around ‘a’, we could first start off with a 3D plane (ax + by + cz + d= 0) initialized in a random position. However, the distance between the a’s and the random plane could potentially be quite large. We then need to modify the coefficients or weights of the plane equation to reorient the plane and minimize its distance between the a’s. 
 
 ```
 distance = sigma i = 1 to 3600 (y_i * log(x_i) + (1 − y_i) * log(1 − p(x_i)))
