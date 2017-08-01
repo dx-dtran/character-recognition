@@ -20,7 +20,7 @@ $ git clone https://github.com/dx-dtran/character-recognition.git
 
 At the MATLAB or Octave command line, navigate to the folder where the scripts are located:
 ```
->> cd C:\Users\dx-dtran\Documents\character-recognition
+>> cd 'C:\Users\dx-dtran\Documents\character-recognition\src'
 ```
 
 In MATLAB, type into the command window:
