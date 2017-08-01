@@ -9,7 +9,7 @@ This is an optical character recognition project written in MATLAB/Octave that p
 
 At the command line (Windows Command Prompt, Mac/Linux Terminal, Git BASH), navigate to a desired folder:
 ```
-$ cd C:\Users\dx-dtran\Documents\character-recognition
+$ cd C:\Users\dx-dtran\Documents
 ```
 Clone the repository to your folder:
 ```
