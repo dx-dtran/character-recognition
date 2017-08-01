@@ -5,6 +5,15 @@
 
 This is an optical character recognition project written in MATLAB/Octave that predicts handwritten lowercase letters. It uses an artificial neural network to learn the alphabet from a 3600-character dataset and recognize unseen variations of characters.
 
+## Table of Contents
+1. [Installation](#how-to-install)
+2. [How to run](#how-to-run-the-character-recognition-script)
+3. [How it works](#how-it-works)
+      * [Character Dataset](#making-the-character-dataset)
+      * [Learning Letters](#learning-letters)
+      * [Recognizing Letters](#recognizing-letters)
+4. [Known Issues](#known-issues)
+
 ## How to install
 
 At the command line (Windows Command Prompt, Mac/Linux Terminal, or Git BASH), navigate to a desired folder:
