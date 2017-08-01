@@ -64,7 +64,7 @@ It will then ask for the correct letter and add the image to the dataset:
 To submit another letter, simply erase the contents of letter.png, draw a new letter, save the file, and retype 'letter.png' at the prompt.
 
 ## How it works
-Creating this project boiled down to three main parts:
+Creating this project required three main steps:
 1. Making a dataset of lowercase letters
 2. Training a neural network to the learn the dataset
 3. Having that neural network predict unseen characters
