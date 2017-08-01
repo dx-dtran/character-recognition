@@ -3,6 +3,8 @@ clear; clc; close all;
 load('weights1.mat');
 load('weights2.mat');
 
+outputFile = fopen('characterDataset.txt', 'a+');
+
 while 1
     
     file = input('\nEnter a file name or press q to quit: ', 's');
@@ -27,4 +29,9 @@ while 1
     fprintf('Confidence: %0.2f%%\n', confidence * 100);
     % fprintf('Second Guess: %s\n\n', char(pred2 + 96));
    
+    letter = input('What was the correct letter? ', 's');
+    fprintf(outputFile, '%d ', image);
+    fprintf(outputFile, '%d ', letterToVector(letter));
+    fprintf(outputFile, '\n');
+
 end
