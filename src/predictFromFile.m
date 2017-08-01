@@ -1,8 +1,15 @@
+% This script repeatedly prompts the user for a image file containing a 
+% handwritten character. It predicts the letter written in the file and
+% prints its confidence level. Finally, it prompts user for the correct
+% letter and appends the image data to an output file.
+
 clear; clc; close all;
 
+% load pre-computed weights
 load('weights1.mat');
 load('weights2.mat');
 
+% append any input images to outputFile
 outputFile = fopen('characterDataset.txt', 'a+');
 
 while 1
@@ -29,6 +36,7 @@ while 1
     fprintf('Confidence: %0.2f%%\n', confidence * 100);
     % fprintf('Second Guess: %s\n\n', char(pred2 + 96));
    
+    % append processed image file data to outputFile
     letter = input('What was the correct letter? ', 's');
     fprintf(outputFile, '%d ', image);
     fprintf(outputFile, '%d ', letterToVector(letter));

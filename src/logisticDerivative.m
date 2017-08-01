@@ -1,5 +1,7 @@
-function g = logisticDerivative(z)
+function d = logisticDerivative(x)
+%LOGISTICDERIVATIVE Compute the derivative of the logistic function at
+%location x, where x is a real number or a vector.
 
-g = logisticFunction(z) .* (1 - logisticFunction(z));
+d = logisticFunction(x) .* (1 - logisticFunction(x));
 
 end
