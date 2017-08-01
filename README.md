@@ -43,7 +43,12 @@ Follow the prompt:
 ```
 >> Enter a file name or press q to quit: letter.png
 ```
-The script will display a processed version of the image file, a computer prediction of the handwritten letter, and its confidence level for the prediction. It will then ask for the correct letter and add the image to the dataset:
+The script will display a processed version of the image file, a computer prediction of the handwritten letter, and its confidence level for the prediction:
+```
+Computer Prediction: y
+Confidence: 95.92%
+```
+It will then ask for the correct letter and add the image to the dataset:
 ```
 >> What was the correct letter? y
 ```
