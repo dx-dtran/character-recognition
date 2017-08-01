@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This is an optical character recognition project written in MATLAB/Octave that predicts handwritten lowercase letters. It uses an artificial neural network to learn the alphabet from a 3600-character dataset and recognize new, unseen handwritten characters.
+This is an optical character recognition project written in MATLAB/Octave that predicts handwritten lowercase letters. It uses an artificial neural network to learn the alphabet from a 3600-character dataset and recognize unseen variations of handwritten characters.
 
 ## How to install
 
@@ -61,9 +61,9 @@ Each letter image is processed using the ‘processImage.m’ script. It perform
 
 These processed, flattened images are stored in a text file called ‘characterDataset.txt’. Each line in the file contains a 1 by 900 flattened character image, followed by a 1 by 26 vector signifying the image’s associated letter. 
 ```
-1 0 0 0 # signifies ‘a’
-0 1 0 0 # signifies ‘b’
-0 0 1 0 # signifies ‘c’
+1 0 0 0     # signifies ‘a’
+0 1 0 0     # signifies ‘b’
+0 0 1 0     # signifies ‘c’
 ```
 and so on. The index of the number 1 determines the letter.
 So, each line in the text file contains 926 elements: 900 elements for pixels, plus 26 elements to classify the letters. There are 3600 of these lines, making up a training set of 3600 letters.
