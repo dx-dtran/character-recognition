@@ -10,7 +10,7 @@ This is an optical character recognition project written in MATLAB/Octave that p
 2. [How to run](#how-to-run-the-character-recognition-script)
 3. [How it works](#how-it-works)
       * [Character Dataset](#making-the-character-dataset)
-      * [Learning Letters](#learning-letters)
+      * [Learning Letters](#neural-networks)
       * [Recognizing Letters](#recognizing-letters)
 4. [Known Issues](#known-issues)
 
