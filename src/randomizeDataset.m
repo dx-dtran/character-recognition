@@ -1,10 +1,12 @@
 clear; clc; close all;
 
-load('characterDataset.txt');
+fprintf('Starting...\n');
 
-num_rows = size(characterDataset, 1);
+load('randomized_dataset.txt');
+
+num_rows = size(randomized_dataset, 1);
 ordering = randperm(num_rows);
-new_dataset = characterDataset(ordering, :);
+new_dataset = randomized_dataset(ordering, :);
 
 outputFile = fopen('randomized_dataset.txt', 'wt');
 
@@ -12,3 +14,5 @@ for i = 1:num_rows
     fprintf(outputFile, '%d ', new_dataset(i,:));
     fprintf(outputFile, '\n');
 end
+
+fprintf('Done\n');

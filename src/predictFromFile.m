@@ -34,7 +34,7 @@ while 1
     
     fprintf('\nComputer Prediction: %s\n', char(pred +96));
     fprintf('Confidence: %0.2f%%\n', confidence * 100);
-    % fprintf('Second Guess: %s\n\n', char(pred2 + 96));
+    fprintf('Second Guess: %s\n\n', char(pred2 + 96));
    
     % append processed image file data to outputFile
     letter = input('What was the correct letter? ', 's');
