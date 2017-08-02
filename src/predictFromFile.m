@@ -10,7 +10,7 @@ load('weights1.mat');
 load('weights2.mat');
 
 % append any input images to outputFile
-outputFile = fopen('new_dataset.txt', 'a+');
+outputFile = fopen('randomized_dataset.txt', 'a+');
 
 while 1
     
